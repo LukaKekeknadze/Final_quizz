@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landings</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="background">
+            <div class="color-background">
+                <div class="background-wrapper">
+                    <div class="nav-div">
+                        <a href="#" class = "background-text">Flask Project / Luka Kekenadze</a>
+                        <nav>
+                            <ul class="nav-ul">
+                                 <li class="nav-li"><a href="{{ url_for('Home') }}">Home</a></li>
+                                <li class="nav-li"><a href="{{ url_for('about') }}">About</a></li>
+                                <li class="nav-li"><a href="{{ url_for('Phone') }}">Phone</a></li>
+                                <li class="nav-li"><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                            </ul>
+                    </nav>
+                </div>
+                <div class="h1-div">
+                    <h1>Activities</h1>
+                </div>
+                <div class="div-p">
+                    <p>Human activity – intentional, purposive, conscious and subjectively meaningful sequences of actions.</p>
+                </div>
+                <div class="button-div">
+                    <button class="button"><a href="{{ url_for('Home') }}">View Our Project</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+</body>
+</html>
